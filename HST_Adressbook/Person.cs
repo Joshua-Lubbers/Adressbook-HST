@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson_27_08_2025
+namespace Adressbook
 {
     internal class Person
     {

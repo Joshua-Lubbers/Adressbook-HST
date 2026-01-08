@@ -1,7 +1,6 @@
-﻿using Lesson_27_08_2025;
-using System;
+﻿using System;
 
-namespace ConnectFourOOP
+namespace Adressbook
 {
     class Program
     {
