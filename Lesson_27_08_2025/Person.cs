@@ -23,14 +23,6 @@ namespace Lesson_27_08_2025
 
         public Person(string firstName, string lastName, int birthYear, int id)
         {
-            if (id <= 0)
-                throw new ArgumentException("Id darf nicht 0 oder negativ sein.");
-
-            if (string.IsNullOrWhiteSpace(firstName))
-                throw new ArgumentException("Vorname darf nicht leer sein.");
-
-            if (string.IsNullOrWhiteSpace(lastName))
-                throw new ArgumentException("Nachname darf nicht leer sein.");
 
             FirstName = firstName;
             LastName = lastName;
